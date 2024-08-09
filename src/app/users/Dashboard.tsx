@@ -1,15 +1,17 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 import React, { useState, useEffect } from "react";
 import ReactPaginate from "react-paginate";
+import dashdata from './dashdata.json';
 
 const FIELD = [
+  "Employer name",
   "Loan amount",
   "Interest rate",
   "Repayment period",
-  "User name",
   "Monthly net salary",
-  "Employer name",
   "Monthly installments",
+  "Total Amount",
 ];
 
 const Dashboard = () => {
@@ -24,7 +26,7 @@ const Dashboard = () => {
 
   const indexOfLastItem = (currentPage + 1) * itemsPerPage;
   const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-  const currentItems = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14].slice(
+  const currentItems = dashdata.slice(
     indexOfFirstItem,
     indexOfLastItem
   );
@@ -32,7 +34,7 @@ const Dashboard = () => {
   return (
     <div className="w-full px-5  relative">
       <div className="w-full  ">
-        <div className="flex flex-row justify-between p-3">
+        <div className="flex flex-row justify-between xxsmall-screen-col p-3">
           <div>
             <select className="text-white rounded-lg bg-transparent border border-[#777]">
               <option className="bg-[#030303] p-9">5</option>
@@ -50,31 +52,29 @@ const Dashboard = () => {
             />
           </div>
         </div>
-        <div className=" w-full border border-transparent border-b-[rgba(255,255,255,0.2)] bg-[rgba(113,214,189,0.2)]">
-          <div className="flex flex-row justify-space w-full">
-            {FIELD.map((item, index) => (
-              <div className="text-center p-3 text-[#DDD] w-[14%]" key={index}>
+       
+        <div className="h-[490px] overflow-y-scroll">
+          <table className="bg-[rgba(0,0,0,0.7)] w-full relative">
+            <thead className="sticky top-0 w-full border-none bg-[#103028] text-base" style={{ fontFamily:"medium"}}>
+              {FIELD.map((item, index) => (
+              <th className="text-center p-5 text-[#DDD] bg-[#103028]" key={index}>
                 {item}
-              </div>
+              </th>
             ))}
-          </div>
-        </div>
-        <div className="h-96 overflow-y-scroll">
-          <table className="bg-[rgba(0,0,0,0.7)] w-full">
-            <thead></thead>
+            </thead>
             <tbody>
             {currentItems.map((item, index) => (
               <tr
                 className={index % 2 ? "bg-[rgba(255,255,255,0.02)]" : ""}
                 key={index}
               >
-                <td className="text-center p-3 text-[#DDD]">{item}</td>
-                <td className="text-center p-3 text-[#DDD]">{item}</td>
-                <td className="text-center p-3 text-[#DDD]">{item}</td>
-                <td className="text-center p-3 text-[#DDD]">{item}</td>
-                <td className="text-center p-3 text-[#DDD]">{item}</td>
-                <td className="text-center p-3 text-[#DDD]">{item}</td>
-                <td className="text-center p-3 text-[#DDD]">{item}</td>
+                <td className="text-center p-3 text-[#DDD]">{item.EmployerName}</td>
+                <td className="text-center p-3 text-[#DDD]">{item.LoanAmount}</td>
+                <td className="text-center p-3 text-[#DDD]">{item.InterestRate}</td>
+                <td className="text-center p-3 text-[#DDD]">{item.RepaymentPeriod}</td>
+                <td className="text-center p-3 text-[#DDD]">{item.MonthlyNetSalary}</td>
+                <td className="text-center p-3 text-[#DDD]">{item.MonthlyInstallments}</td>
+                <td className="text-center p-3 text-[#DDD]">{item.TotalAmount}</td>
               </tr>
             ))}
             </tbody>

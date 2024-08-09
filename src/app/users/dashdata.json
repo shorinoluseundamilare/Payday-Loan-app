@@ -1,0 +1,137 @@
+[
+    {
+        "EmployerName": "ABC Company",
+        "LoanAmount": "$10000",
+        "InterestRate": "5%",
+        "RepaymentPeriod": "12 months",
+        "MonthlyNetSalary": "$3000",
+        "MonthlyInstallments": "$900",
+        "TotalAmount": "$10800"
+    },
+    {
+        "EmployerName": "XYZ Corporation",
+        "LoanAmount": "$15000",
+        "InterestRate": "6%",
+        "RepaymentPeriod": "24 months",
+        "MonthlyNetSalary": "$4000",
+        "MonthlyInstallments": "$750",
+        "TotalAmount": "$18000"
+    },
+    {
+        "EmployerName": "123 Industries",
+        "LoanAmount": "$12000",
+        "InterestRate": "4%",
+        "RepaymentPeriod": "18 months",
+        "MonthlyNetSalary": "$3500",
+        "MonthlyInstallments": "$700",
+        "TotalAmount": "$12600"
+    },
+    {
+        "EmployerName": "Tech Solutions",
+        "LoanAmount": "$8000",
+        "InterestRate": "3.5%",
+        "RepaymentPeriod": "15 months",
+        "MonthlyNetSalary": "$2800",
+        "MonthlyInstallments": "$600",
+        "TotalAmount": "$9000"
+    },
+    {
+        "EmployerName": "Sunshine Corp",
+        "LoanAmount": "$11000",
+        "InterestRate": "4.5%",
+        "RepaymentPeriod": "18 months",
+        "MonthlyNetSalary": "$3200",
+        "MonthlyInstallments": "$700",
+        "TotalAmount": "$12600"
+    },
+    {
+        "EmployerName": "Blue Co.",
+        "LoanAmount": "$13500",
+        "InterestRate": "5.5%",
+        "RepaymentPeriod": "24 months",
+        "MonthlyNetSalary": "$3800",
+        "MonthlyInstallments": "$800",
+        "TotalAmount": "$19200"
+    },
+    {
+        "EmployerName": "Green Solutions",
+        "LoanAmount": "$9500",
+        "InterestRate": "4.2%",
+        "RepaymentPeriod": "12 months",
+        "MonthlyNetSalary": "$2900",
+        "MonthlyInstallments": "$750",
+        "TotalAmount": "$9000"
+    },
+    {
+        "EmployerName": "Silver Enterprises",
+        "LoanAmount": "$12500",
+        "InterestRate": "5%",
+        "RepaymentPeriod": "18 months",
+        "MonthlyNetSalary": "$3600",
+        "MonthlyInstallments": "$700",
+        "TotalAmount": "$12600"
+    },
+    {
+        "EmployerName": "Golden Technologies",
+        "LoanAmount": "$14000",
+        "InterestRate": "6%",
+        "RepaymentPeriod": "24 months",
+        "MonthlyNetSalary": "$4200",
+        "MonthlyInstallments": "$800",
+        "TotalAmount": "$19200"
+    },
+    {
+        "EmployerName": "Dynamic Innovations",
+        "LoanAmount": "$11500",
+        "InterestRate": "4.8%",
+        "RepaymentPeriod": "15 months",
+        "MonthlyNetSalary": "$3300",
+        "MonthlyInstallments": "$700",
+        "TotalAmount": "$10500"
+    },
+    {
+        "EmployerName": "Innovate Co.",
+        "LoanAmount": "$9500",
+        "InterestRate": "4.2%",
+        "RepaymentPeriod": "12 months",
+        "MonthlyNetSalary": "$2900",
+        "MonthlyInstallments": "$750",
+        "TotalAmount": "$9000"
+    },
+    {
+        "EmployerName": "Tech Solutions",
+        "LoanAmount": "$8000",
+        "InterestRate": "3.5%",
+        "RepaymentPeriod": "15 months",
+        "MonthlyNetSalary": "$2800",
+        "MonthlyInstallments": "$600",
+        "TotalAmount": "$9000"
+    },
+    {
+        "EmployerName": "Sunshine Corp",
+        "LoanAmount": "$11000",
+        "InterestRate": "4.5%",
+        "RepaymentPeriod": "18 months",
+        "MonthlyNetSalary": "$3200",
+        "MonthlyInstallments": "$700",
+        "TotalAmount": "$12600"
+    },
+    {
+        "EmployerName": "Blue Co.",
+        "LoanAmount": "$13500",
+        "InterestRate": "5.5%",
+        "RepaymentPeriod": "24 months",
+        "MonthlyNetSalary": "$3800",
+        "MonthlyInstallments": "$800",
+        "TotalAmount": "$19200"
+    },
+    {
+        "EmployerName": "Green Solutions",
+        "LoanAmount": "$9500",
+        "InterestRate": "4.2%",
+        "RepaymentPeriod": "12 months",
+        "MonthlyNetSalary": "$2900",
+        "MonthlyInstallments": "$750",
+        "TotalAmount": "$9000"
+    }
+]
